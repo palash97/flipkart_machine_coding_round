@@ -1,0 +1,38 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leftPart{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.addCreative{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.titleSearch{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.filters{
+    display: flex;
+    flex-direction: row;
+}
+
+.colorSearch{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}

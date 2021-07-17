@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Creative</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="leftPart">
+            <div id="addCreative">
+                <div style="padding: 25px;">Filter By:</div>
+                <div class="filters">
+                    <div class="colorSearch">
+                        <div>colors :</div>
+                        <div style="margin-top: 10px;" id=colorSearch></div>
+                    </div>
+                    <div class="titleSearch">
+                        <div>title/subtitle :</div>
+                        <input id="titleSearch" style="margin-top: 10px;">
+                    </div>
+                </div>
+                <div class="progressBar" style="padding: 25px;">
+                    <progress id="progressBar" value="0" max="100"></progress>
+                </div>
+                <div class="addCreativeButton" style="padding: 25px;">
+                    <button id="addCreativeButton" disabled>+ Add Creative</button>
+                </div>
+                <div id="creativeCards">
+
+                </div>
+            </div>
+        </div>
+        <div id="form" style="display: none;padding: 25px;position: fixed;right: 0;width: 35%;height: 100%;">
+            <div style="display: flex; flex-direction: column; padding: 10px;">
+                <div style="display: flex; flex-direction: row;padding: 20px;">
+                    <h1>Creative Creation</h1>
+                    <button id="close" style="margin:10px;">close</button>
+                </div>
+                <div class="enterTitle" style="display: flex; flex-direction: column; padding: 20px;">
+                    <div>Title</div>
+                    <input placeholder="Enter a Title" id="enterTitle" required>
+                </div>
+                <div class="enterSubTitle" style="display: flex; flex-direction: column; padding: 20px;">
+                    <div>Subtitle</div>
+                    <input placeholder="Enter a subtitle" id="enterSubTitle" required>
+                </div>
+                <div id="selectColor" style="display: flex; flex-direction: row; padding: 20px;">
+                    <div style="margin-right: 10px;">Background Color :</div>
+                </div>
+                <button id="done" style="margin: 20px;">Done</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
